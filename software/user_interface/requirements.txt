@@ -1,0 +1,4 @@
+colorzero==2.0
+Encoder==1.1
+gpiozero==1.6.2
+RPi.GPIO==0.7.1

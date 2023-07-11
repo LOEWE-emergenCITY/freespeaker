@@ -1,0 +1,158 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid a27fa785-5711-4908-91d1-70ccf0a1d944)
+
+  (paper "A4" portrait)
+
+  (title_block
+    (title "FreeSpeaker project overview")
+    (date "2021-12-09")
+    (rev "v1")
+  )
+
+  (lib_symbols
+  )
+
+
+  (polyline (pts (xy 113.03 128.27) (xy 182.88 128.27))
+    (stroke (width 0) (type default))
+    (uuid 41335293-9bdc-485c-acf1-311355767b30)
+  )
+  (polyline (pts (xy 113.03 71.12) (xy 113.03 72.39))
+    (stroke (width 0) (type default))
+    (uuid 4b9828a8-8673-41e5-8bdc-c6b64d3bce57)
+  )
+  (polyline (pts (xy 113.03 72.39) (xy 113.03 128.27))
+    (stroke (width 0) (type default))
+    (uuid 6411ea06-1b60-414c-8183-de7a36926cbb)
+  )
+  (polyline (pts (xy 182.88 71.12) (xy 113.03 71.12))
+    (stroke (width 0) (type default))
+    (uuid 94708230-545b-4451-b91b-2c8ddfe8faa9)
+  )
+  (polyline (pts (xy 182.88 128.27) (xy 182.88 71.12))
+    (stroke (width 0) (type default))
+    (uuid 9a607735-44a1-4187-91f5-04fd55a62006)
+  )
+
+  (text "Pin Usage" (at 118.11 67.31 0)
+    (effects (font (size 2.54 2.54)) (justify left bottom))
+    (uuid 7f13b57b-b620-4732-9884-a9d45b5220f9)
+  )
+  (text "Pin Name	Usage	GPIO on CM4	Remarks\n----------------------------------------\nPCM CLK		Audio		18\nPCM FS		Audio		19\nPCM DIN		Audio		20\nPCM DOUT	Audio		21\nI2C1 SDA	Audio		2\nI2C1 SCL	Audio		3\nSPI1 SCK	LoRaWAN		11\nSPI1 MISO	LoRaWAN		9\nSPI1 MOSI	LoRaWAN		10\nSPI2 SCK	Audio		7	(as gpio)\nSPI2 MISO	Audio		5	(as gpio)\nSPI2 MOSI	Audio		6	(as gpio)\nGPIO 1		ui button	22\nGPIO 2		rotary A	23\nGPIO 3		rotary B	4\nGPIO 4		LEDs		8\nGPIO 5					17\nGPIO 6		LoRaWAN		24\nGPIO 7		LoRaWAN		25\nGPIO 8		LoRaWAN		26\nGPIO 9					27\nGPIO 10					n.c. to CM4\n"
+    (at 118.11 121.92 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 98fd733d-bd3d-4783-beca-c47afe1d6483)
+  )
+  (text "This top level file is only for documentation and a BOM\n\nUse the different subprojects to work on the PCBs"
+    (at 38.1 88.9 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e446d731-c85d-47ee-ac59-21b24f0ca463)
+  )
+
+  (sheet (at 38.1 120.65) (size 50.8 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0466c5db-aa59-4e4a-94c4-974b57d664f7)
+    (property "Sheetname" "Speaker" (at 38.1 119.9384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Speaker/Speaker.kicad_sch" (at 38.1 133.9346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FreeSpeaker"
+        (path "/a27fa785-5711-4908-91d1-70ccf0a1d944" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 107.95 158.75) (size 50.8 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 15e556d2-ad2a-4d17-a7fb-a52e20ff214c)
+    (property "Sheetname" "Prototyping" (at 107.95 158.0384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "PrototypingSlice/PrototypingSlice.kicad_sch" (at 107.95 172.0346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FreeSpeaker"
+        (path "/a27fa785-5711-4908-91d1-70ccf0a1d944" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 38.1 139.7) (size 50.8 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2c5f9386-a656-408b-b317-5aea7b0331bb)
+    (property "Sheetname" "LoRaWan" (at 38.1 138.9884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "LoRaWan/LoRaWan.kicad_sch" (at 38.1 152.9846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FreeSpeaker"
+        (path "/a27fa785-5711-4908-91d1-70ccf0a1d944" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 38.1 101.6) (size 50.8 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid aa973a4a-b307-473c-be6b-497994efc9cb)
+    (property "Sheetname" "UserInterface" (at 38.1 100.8884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "UserInterface/UserInterface.kicad_sch" (at 38.1 114.8846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FreeSpeaker"
+        (path "/a27fa785-5711-4908-91d1-70ccf0a1d944" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 38.1 158.75) (size 50.8 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ba564171-128f-448b-b12d-f10c46477bf9)
+    (property "Sheetname" "MainBoard" (at 38.1 158.0384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Mainboard/Mainboard.kicad_sch" (at 38.1 172.0346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FreeSpeaker"
+        (path "/a27fa785-5711-4908-91d1-70ccf0a1d944" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 38.1 177.8) (size 50.8 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ca1bd632-1cf3-4657-b200-7cd4ba31b106)
+    (property "Sheetname" "PowerSupply" (at 38.1 177.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "PowerSupply/PowerSupply.kicad_sch" (at 38.1 191.0846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FreeSpeaker"
+        (path "/a27fa785-5711-4908-91d1-70ccf0a1d944" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

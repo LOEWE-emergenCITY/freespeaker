@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name "CM4IO")(type "KiCad")(uri "${KIPRJMOD}/../../KiCAD_libs/footprints/CM4IO.pretty")(options "")(descr ""))
+  (lib (name "FreeSpeeker")(type "KiCad")(uri "${KIPRJMOD}/../../KiCAD_libs/footprints/FreeSpeaker.pretty")(options "")(descr ""))
+  (lib (name "ARJM11")(type "KiCad")(uri "${KIPRJMOD}/../../KiCAD_libs/footprints/ARJM11.pretty")(options "")(descr ""))
+  (lib (name "hardware_id")(type "KiCad")(uri "${KIPRJMOD}/../../KiCAD_libs/footprints/hardware_id.pretty")(options "")(descr ""))
+  (lib (name "mainboard")(type "KiCad")(uri "${KIPRJMOD}/../../KiCAD_libs/footprints/mainboard.pretty")(options "")(descr ""))
+)

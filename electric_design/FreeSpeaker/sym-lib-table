@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name "FreeSpeaker")(type "KiCad")(uri "${KIPRJMOD}/../KiCAD_libs/symbols/FreeSpeaker.kicad_sym")(options "")(descr ""))
+  (lib (name "CM4IO")(type "KiCad")(uri "${KIPRJMOD}/../KiCAD_libs/symbols/CM4IO.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS5450")(type "KiCad")(uri "${KIPRJMOD}/../KiCAD_libs/symbols/TPS5450.kicad_sym")(options "")(descr ""))
+  (lib (name "AOSP21321")(type "KiCad")(uri "${KIPRJMOD}/../KiCAD_libs/symbols/AOSP21321.kicad_sym")(options "")(descr ""))
+  (lib (name "FreeSpeaker_audio")(type "KiCad")(uri "${KIPRJMOD}/../KiCAD_libs/symbols/FreeSpeaker_audio.kicad_sym")(options "")(descr ""))
+  (lib (name "TPA3140D2")(type "KiCad")(uri "${KIPRJMOD}/../KiCAD_libs/symbols/TPA3140D2.kicad_sym")(options "")(descr ""))
+  (lib (name "SPU0410HR5H-SB-7")(type "KiCad")(uri "${KIPRJMOD}/../KiCAD_libs/symbols/SPU0410HR5H-SB-7.kicad_sym")(options "")(descr ""))
+)

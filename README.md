@@ -2,19 +2,33 @@
 
 This repository provides the current state of our modular smart speaker research platform called **FreeSpeaker**.
 
+### :warning: Work in progress
+The current state of the FreeSpeaker is a first beta version.
+We plan to update the design and add changes that will lead to incompatibilities with current hardware.
+
 ## Mechanical design
+[![CC BY 4.0][cc-by-shield]][cc-by]
+
 Find the CAD files for the plattform in `mechanical_design/`.
 The components were designed to be 3D printed.
 
-Tools: Autodesk Fusion 360
+Tools: Autodesk Fusion 360 or any CAD program compatible with STEP files.
+
+The CAD files are licensed under a [Creative Commons Attribution 4.0 International License][cc-by].
 
 ## PCB design
+[![CC BY 4.0][cc-by-shield]][cc-by]
 Find the design files for the PCB in `electric_design/`.
 
 Tools: KiCad 6.x
 
+The electrical design files are licensed under a [Creative Commons Attribution 4.0 International License][cc-by].
+
 ## Software 
+[![MIT][mit-shield]][mit]
 Find scripts to setup the different components in `software/`.
+
+The software components are licensed under a [MIT License][mit].
 
 ---
 
@@ -106,3 +120,9 @@ This PCB redesign will result in incompatibilities, whereas our mechanical desig
 
 ---
 This work has been funded by the LOEWE initiative (Hesse, Germany) within the emergenCITY center.
+
+
+[cc-by]: https://creativecommons.org/licenses/by/4.0/
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+[mit-shield]: https://img.shields.io/badge/License-MIT-lightgrey.svg
+[mit]: https://opensource.org/license/mit/

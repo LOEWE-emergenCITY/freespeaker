@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name "CM4IO")(type "KiCad")(uri "${KIPRJMOD}/../KiCAD_libs/footprints/CM4IO.pretty")(options "")(descr ""))
+  (lib (name "FreeSpeeker")(type "KiCad")(uri "${KIPRJMOD}/../KiCAD_libs/footprints/FreeSpeaker.pretty")(options "")(descr ""))
+  (lib (name "TPS5450")(type "KiCad")(uri "${KIPRJMOD}/../KiCAD_libs/footprints/TPS5450.pretty")(options "")(descr ""))
+  (lib (name "TPA3140D2")(type "KiCad")(uri "${KIPRJMOD}/../KiCAD_libs/footprints/TPA3140D2.pretty")(options "")(descr ""))
+  (lib (name "SPU0410HR5H-SB-7")(type "KiCad")(uri "${KIPRJMOD}/../KiCAD_libs/footprints/SPU0410HR5H-SB-7.pretty")(options "")(descr ""))
+)

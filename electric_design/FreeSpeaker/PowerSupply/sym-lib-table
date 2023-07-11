@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name "FreeSpeaker")(type "KiCad")(uri "${KIPRJMOD}/../../KiCAD_libs/symbols/FreeSpeaker.kicad_sym")(options "")(descr ""))
+  (lib (name "CM4IO")(type "KiCad")(uri "${KIPRJMOD}/../../KiCAD_libs/symbols/CM4IO.kicad_sym")(options "")(descr ""))
+  (lib (name "ARJM11")(type "KiCad")(uri "${KIPRJMOD}/../../KiCAD_libs/symbols/ARJM11.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS5450")(type "KiCad")(uri "${KIPRJMOD}/../../KiCAD_libs/symbols/TPS5450.kicad_sym")(options "")(descr ""))
+  (lib (name "Mainboard")(type "KiCad")(uri "${KIPRJMOD}/../KiCAD_libs/symbols/Mainboard.kicad_sym")(options "")(descr ""))
+)

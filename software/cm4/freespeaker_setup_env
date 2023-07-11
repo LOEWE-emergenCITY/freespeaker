@@ -1,0 +1,5 @@
+#!/bin/bash
+export FREESPEAKER_WIFI_SSID="your-ssid"
+export FREESPEAKER_WIFI_PSK="your-psk"
+
+export FREESPEAKER_TARGET_DEVICE_PATH="/dev/mmcblk0"
